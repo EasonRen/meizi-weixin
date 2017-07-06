@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美图",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#46bd3c",
+    "borderStyle": "white",
+    "backgroundColor": "#fefefe",
+    "list": [
+      {
+        "text": "美图",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar_home_normal.png",
+        "selectedIconPath": "images/tabbar_home_selected.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/tabbar_setting_normal.png",
+        "selectedIconPath": "images/tabbar_setting_selected.png"
+      }
+    ]
+  }
+}

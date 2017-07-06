@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="card" wx:for="{{meiziData}}" wx:key="url">
+  <view data-url="{{item.url}}" bindtap="onItemClick">
+    <image class="image" mode="aspectFill" src="{{item.url}}" />
+    <view class="publish">publish by：@{{item.who}} -- {{item.publishedAt}}</view>
+  </view>
+</view>
