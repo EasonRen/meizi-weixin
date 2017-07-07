@@ -25,8 +25,8 @@
       {
         "text": "关于",
         "pagePath": "pages/about/about",
-        "iconPath": "images/tabbar_setting_normal.png",
-        "selectedIconPath": "images/tabbar_setting_selected.png"
+        "iconPath": "images/tabbar_about_normal.png",
+        "selectedIconPath": "images/tabbar_about_selected.png"
       }
     ]
   }

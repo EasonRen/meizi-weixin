@@ -13,6 +13,7 @@ Page({
     var targetUrl = "/pages/detail/detail";
     if (event.currentTarget.dataset.url != null)
       targetUrl = targetUrl + "?url=" + event.currentTarget.dataset.url;
+
     wx.navigateTo({
       url: targetUrl
     });
@@ -92,7 +93,6 @@ function requestData(that, targetPage) {
     },
     success: function (res) {
       if (res.data.results == null || res.data.results.length <= 0) {
-        console.error("god bless you...");
         return;
       }
 
